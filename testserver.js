@@ -14,8 +14,10 @@ server.listen(8080, function () {
     console.log('Server is listening at '+ip.address());
 });
 
-async function Fn(){
-    console.log("Hello from server. This is Fn implementation")
+async function F2 () {
+    console.log("Hello from client. This is implementation of F2")
 }
+
+await F2();
 
 console.log(Fn());
