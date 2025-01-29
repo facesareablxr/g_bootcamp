@@ -5,10 +5,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Cheng",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ip": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facesareablxr/g_bootcamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facesareablxr/g_bootcamp/issues"
+  },
+  "homepage": "https://github.com/facesareablxr/g_bootcamp#readme",
+  "description": ""
 }
