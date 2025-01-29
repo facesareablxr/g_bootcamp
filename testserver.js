@@ -13,3 +13,9 @@ var server = net.createServer(function (connection) {
 server.listen(8080, function () {
     console.log('Server is listening at '+ip.address());
 });
+
+async function Fn(){
+    console.log("Hello from server. This is Fn implementation")
+}
+
+console.log(Fn());
