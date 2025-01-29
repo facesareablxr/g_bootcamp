@@ -12,3 +12,9 @@ client.on('data', function (data) {
 client.on('end', function () {
     console.log('Disconnected from server.');
 });
+
+
+async function Fn(){
+    console.log('Hello from client. This is Fn implementation')
+    }
+console.log(Fn());
